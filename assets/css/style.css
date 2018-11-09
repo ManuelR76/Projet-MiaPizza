@@ -1,0 +1,562 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* Victoria's part navbar */
+
+marquee {
+  font-size: 0.8rem;
+  color: white;
+  background: black;
+  z-index: 3;
+  height: auto;
+  position: fixed;
+}
+
+.navbar {
+ background: linear-gradient( #a3211f, #BD0202);
+ position: fixed;
+ z-index: 2;
+ height: auto;
+ left: 0;
+ top: 0;
+ width: 100%;
+ /* transition top 0.3s; */
+ /* opacity: 1; */
+}
+
+.navbar.navbar-expand-lg.navbar-dark.backnav {
+  margin-top: 18px;
+  border-bottom: 2px solid black;
+  box-shadow: 4px 4px 10px black;
+}
+
+.navbar-brand #logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  margin: 0 140px 0 40px;
+  box-shadow: 3px 3px 3px black;
+}
+
+a.nav-link {
+  text-shadow: 1px 1px 1px black;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a.nav-link:hover {
+  border-bottom: 3px solid green;
+  font-size: 1rem;
+}
+
+a.nav-link.icon {
+  border-bottom: none;
+  text-shadow: 1px 1px 1px black;
+}
+
+.navbar li {
+  margin: auto 30px;
+}
+
+.navbar .icon1 {
+  margin-left: 220px;
+}
+
+.dropdown-menu.show {
+  background: linear-gradient( #a3211f, #BD0202);
+}
+
+.dropdown-item {
+  color: #fff;
+}
+/* Victoria main-page */
+.main-image {
+  margin-top: 0px;
+  background: url('../images/menu.jpg') top;
+  max-width: 100%;
+  display: flex;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  padding-bottom: 100px;
+  border-bottom: 4px solid #FF8D12;
+  background-size: cover;
+}
+
+.main-image .slogan h1 {
+  font-family: 'Pattaya', sans-serif;
+  font-size: 8em;
+  color: #C0C0C0;
+  margin-top: 260px;
+  margin-left: 400px;
+  text-shadow: 3px 3px 3px black;
+}
+
+/* .main-image .table {
+  height: auto;
+  width: 500px;
+  margin-top: 370px;
+  margin-left: 0px;
+} */
+
+/* .main-image .table h2 {
+  margin-left: 50px;
+  font-size: 1.7em;
+  color: #cca043;
+  font-family: 'Mali', cursive;
+} */
+.main-image a {
+  padding: 5px 10px;
+  margin-top: 20px;
+  margin-left: 580px;
+  font-size: 1em;
+  color: #fff;
+  background: linear-gradient(#BD0202, #a3211f);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.main-image a:hover {
+  cursor:pointer;
+  color: #fff;
+  background: #cca043;
+  border: 1px solid black;
+}
+/* End Victoria's part */
+
+/* Jeffen's part  */
+/* offres et cards */
+.selection {
+  background: url('../images/ardoise.jpg') top;
+  background-repeat: no-repeat;
+  position: relative;
+  
+  background-size: cover;
+}
+
+#offers{
+  text-align: center;
+  padding: 2rem;
+}
+.card{
+  height: 565px;
+}
+#productsDisplay{
+  padding-bottom: 1rem;
+}
+.card-header{
+  background: linear-gradient(to left, #cfb53b, #daa520, #ffd700);
+}
+#categoryRow{
+  padding-bottom: 2rem;
+}
+#categoryItem, #categoryAll{
+  border-color: orange;
+  margin-right: 1rem;
+}
+.minusItem{
+  color:red;
+}
+.minusItem:hover{
+  cursor:pointer;
+}
+.plusItem{
+  color:green;
+}
+.plusItem:hover{
+  cursor:pointer;
+}
+#priceByItem{
+  color : blue;
+}
+#deleteProduct{
+  color: red;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+  background-color: white;
+  height:20px;
+}
+#deleteProduct, #cartButton:hover{
+  cursor:pointer;
+}
+#cartButton{
+  color : #FF8D12;
+  font-size: 3rem;
+  position: fixed;
+  padding: 0.8rem;
+  height: 5rem;
+  width: 5rem;
+  bottom: 11px;
+  right: 11px;
+  z-index: 300;
+  border-width:1px;
+  border-style: solid;
+  border-color: #FF8D12;
+  background:  linear-gradient(#BD0202, #a3211f);
+  border-radius: 3rem ;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7),
+  -1px 2px 20px rgba(255, 255, 255, 0.6) inset;
+}
+#cartButton:hover{
+  color: #ffd700;
+  padding: 0.8rem;
+  border-color: #ffd700;
+}
+.circle{
+  position: absolute;
+  font-size: 1rem;
+  margin-left: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  width:25px;
+  font-weight: bold;
+  background-color:white;
+  height:23px;
+  vertical-align: middle;
+  text-align:center;
+  border-radius:3rem;
+  z-index: 2;
+}
+/* End Jeffen's part */
+
+/* Manuel's part  */
+.recipees {
+	background: url('../images/rome.jpg');
+  max-width: 100%;
+  height: auto;
+	display: flex;
+	background-repeat: no-repeat;
+  background-size: cover;
+	position: relative;
+  padding-top: 60px;
+	padding-bottom: 100px;
+  border-bottom: 4px solid #FF8D12;
+  border-top: 4px solid #FF8D12;
+}
+
+.cards {
+  margin-top: 180px;
+}
+
+.card h3 {
+	margin-top: 0px;
+	color: #fff;
+	text-shadow: 2px 2px 2px black;
+}
+
+strong {
+  font-size: 0.8em;
+  font-family: 'Mali', cursive;
+  text-shadow: 2px 2px 2px black;
+  color: #fff;
+	background:  linear-gradient( #a3211f, #BD0202);
+	padding: 10px 15px;
+	box-shadow: 3px 3px 3px black;
+	border-radius: 5px;
+}
+
+.card h4 {
+	color: black;
+}
+
+.card h4#exampleModalLabel{
+	color: #fff;
+}
+
+ button.close {
+	 color: #fff;
+ }
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  border: 1px solid black;
+	box-shadow: 3px 3px 3px black;
+}
+
+.card-text {
+	/* margin-bottom: 40px; */
+}
+
+.card-img-top{
+	height: 210px;
+	border-bottom: 1px solid black;
+}
+
+.card p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn {
+	color: #fff;
+	background: linear-gradient( #a3211f, #BD0202);
+	box-shadow: 3px 3px 3px black;
+}
+
+.btn:hover {
+	color: #fff;
+	background: orangered;
+}
+
+.modal-body ul li {
+	list-style: none;
+}
+
+.modal-header {
+	background: linear-gradient( #a3211f, #BD0202);
+	border: 1px solid black;
+}
+
+.modal-footer {
+	background: linear-gradient( #a3211f, #BD0202);
+	border: 2px solid black;
+}
+
+
+/* parallax */
+/* .parallax {
+  margin-top: 0px;
+  background: url('../images/cinque.jpg') top;
+  max-width: 100%;
+  display: flex;
+  height: 800px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+  border-bottom: 4px solid #FF8D12;
+} */
+
+/* End Manuel's part  */
+
+/* Yas footer's part  */
+#footer {
+  border-top: 3px solid #b20e0d;
+  border-bottom: 3px solid #b20e0d;
+  margin : 0 auto;
+  float: none;
+}
+.cssform1{
+  background-color: #ffff;
+
+}
+#formContact{
+
+}
+#titleform{
+  text-align: center;
+  font-size: 2rem;
+  color : #b20e0d;
+  font-family: 'Pacifico', cursive;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.inputform{
+  width: 20rem;
+  height: 2rem;
+  border: 2px solid #b20e0d;
+  max-width: 100%;
+}
+.labelform{
+  width: 4rem;
+  height : 2rem;
+  color : #b20e0d;
+  font-family: 'Pacifico', cursive;
+}
+
+.textarea1{
+  width: 20rem;
+  height: 6rem;
+  border: 2px solid #b20e0d;
+  max-width: 100%;
+}
+.hasError{
+  color: red;
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#footerbutton{
+  float: inline-end;
+  margin: 1rem;
+  color : #b20e0d;
+  border: 3px solid #b20e0d;
+  font-family: 'Pattaya', cursive;
+
+
+}
+#imgmap{
+  width: 20rem;
+  height: 15rem;
+  float: center;
+  margin-top: 2rem;
+  border: 2px solid #b20e0d;
+  max-width: 100%;
+}
+#imgmap:hover{
+  width: 20rem;
+  height: 15rem;
+  float: center;
+  margin-top: 2rem;
+  border: 3px solid #b20e0d;
+
+}
+
+.ft-copyright {
+		background-color: #000a1f;
+		border-top: 1px solid #b20e0d;
+		display: flex;
+    font-family: 'Pacifico', cursive;;
+	}
+
+	.pb-2,
+	.py-2 {
+		padding-bottom: .5rem !important;
+		padding-top: .5rem !important;
+	}
+
+	.footer-top {
+		background-color: #ffff;
+		border-bottom: 1px solid rgba(25, 52, 132, .64);
+	}
+
+	.text-center {
+		text-align: center !important;
+	}
+
+	h4.ft-text-title {
+		color: #b20e0d;
+		margin: 20px 0 10px;
+		text-align: center;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+	}
+  h4.ft-text-title2 {
+    color: #b20e0d;
+    margin: 20px 0 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+  }
+
+	footer p {
+		color: #b20e0d;
+		margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+	}
+
+    p.member{
+    color: #b20e0d;
+    text-align: match-parent;
+    padding: 2rem;
+    line-height: 2.5rem;
+    font-family: 'Pacifico', cursive;
+    }
+
+    #justpushtobottom {
+        height: 82vh;
+    }
+    #logofooter{
+      width: 5rem;
+      height: 5rem;
+    }
+
+    #socialfooter{
+      margin: 1rem;
+    }
+    .logosocial{
+      padding : 1rem;
+    }
+   .footerbottom{
+     border-bottom: 3px solid #b20e0d;
+   }
+/* Yas End footer's part
+
+/* Media Queries */
+@media only screen and (max-width: 900px) {
+  .navbar-brand #logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin: 0 120px 0 40px;
+  }
+  .navbar li {
+    margin: auto 40px;
+  }
+  .navbar .icon1  {
+    margin-left: 40px;
+  }
+  .navbar .icon2  {
+    margin-left: 40px;
+  }
+  .main-image {
+    margin-top: 0px;
+    background: url('../images/menu.jpg') top;
+    max-width: 100%;
+    display: flex;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 100px;
+    border-bottom: 4px solid #FF8D12;
+    background-size: cover;
+  }
+  .main-image .slogan h1 {
+    font-size: 4.5em;
+    color: #c7cfdb;
+    margin-top: 130px;
+    margin-left: 15px;
+    text-shadow: 2px 2px black;
+  }
+  .main-image .table {
+    margin-top: 180px;
+    margin-left: 0px;
+  }
+  .main-image .table h2 {
+    display: none;
+    /* margin-left: 5px;
+    font-size: 1rem;
+    color: #cca043;
+    font-family: 'Mali', cursive; */
+  }
+  .main-image a {
+    text-shadow: 2px 2px black;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 1em;
+    color: #c7cfdb;
+    background: transparent;
+    border: 1px solid #c7cfdb;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+  }
+  #cartButton {
+    height: 4rem;
+    width: 4rem;
+    font-size: 2rem;
+  }
+  .circle{
+    font-size: 0.9rem;
+    color:black;
+    margin-left: 0.7rem;
+    margin-top:0.7rem;
+    width:20px;
+    height:20px;
+  }
+  #categoryGroup{
+    display:flex;
+    justify-content:center;
+  }
+  #categoryItem, #categoryAll{
+    margin-bottom: 1rem;
+  }
+}
